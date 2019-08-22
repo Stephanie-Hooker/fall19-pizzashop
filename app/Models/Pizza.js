@@ -31,7 +31,7 @@ export default class Pizza {
                 </div>
                 <button type="submit">+</button>
               </form>
-              <h3>${this.price}</h3>
+              <h3>price: ${this.price}</h3>
               <button type ="button" onclick="app.controllers.pizzaController.deletePizza(${index})">X</button>
         </div>
     `
